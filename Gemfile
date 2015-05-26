@@ -49,5 +49,6 @@ group :deployment do
   gem 'capistrano-rails'
   gem 'capistrano-passenger'
   gem 'capistrano-bundler'
+  gem 'capistrano-postgresql', '~> 4.2.0'
 end
 
