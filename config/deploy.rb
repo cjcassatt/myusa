@@ -58,5 +58,5 @@ namespace :deploy do
     end
   end
 
-  after deploy:finished, nginx:restart
+  after "deploy:finished", "nginx:restart"
 end
