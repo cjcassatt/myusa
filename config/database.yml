@@ -20,7 +20,7 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
-  username: myusa
+  username: stsidev
 development:
   <<: *default
   database: myusa_development
@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: myusa_production
-  username: myusa
+  username: stsidev
   password: <%= ENV['MYUSA_DATABASE_PASSWORD'] %>
