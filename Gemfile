@@ -47,7 +47,7 @@ end
 group :deployment do
   gem 'capistrano'
   gem 'capistrano-rails'
-  gem 'capistrano-passenger'
+  # gem 'capistrano-passenger'
   gem 'capistrano-bundler'
 end
 
