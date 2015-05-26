@@ -36,6 +36,8 @@ set :repo_url, 'https://github.com/cjcassatt/myusa.git'
 
 set :pty, true
 
+set :passenger_restart_with_sudo, true
+
 set :ssh_options, {
   forward_agent: true,
   auth_methods: ["publickey"],
