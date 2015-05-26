@@ -36,7 +36,10 @@ set :repo_url, 'https://github.com/cjcassatt/myusa.git'
 
 set :pty, true
 
-set :passenger_restart_with_sudo, true
+# passenger settings
+set :passenger_restart_with_sudo, false
+# passenger-config is not on path when using sudo. This is the workaround
+set :passenger_restart_command, '-i passenger-config restart-app'
 
 set :ssh_options, {
   forward_agent: true,
