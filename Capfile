@@ -18,6 +18,8 @@ require 'capistrano/deploy'
 # require 'capistrano/rvm'
 # require 'capistrano/rbenv'
 require 'capistrano/rails'
+require 'capistrano/nginx'
+
 # require 'capistrano/chruby'
 # require 'capistrano/bundler'
 # require 'capistrano/rails/assets'

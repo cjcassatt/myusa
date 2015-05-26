@@ -48,6 +48,7 @@ group :deployment do
   gem 'capistrano'
   gem 'capistrano-rails'
   # gem 'capistrano-passenger'
+  gem 'capistrano3-nginx'
   gem 'capistrano-bundler'
 end
 
