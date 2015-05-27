@@ -53,6 +53,6 @@ namespace :deploy do
     end
   end
   
-  after "deploy:finished", "deploy:create_app_link"
+  after "deploy:published", "deploy:create_app_link"
   after "deploy:finished", "nginx:restart"
 end
